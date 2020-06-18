@@ -1,0 +1,32 @@
+<templateSet group="Solargroup">
+  <template name="dbg" value="YII_DEBUG &amp;&amp; Log::debug(&#10;    '$END$',&#10;    [],&#10;    __METHOD__&#10;);" description="YII_DEBUG &amp;&amp; Log::debug()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="jse" value="Json::encode($END$, JSON_UNESCAPED_UNICODE)" description="Json::encode()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="jsd" value="Json::decode($END$)" description="Json::decode()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="vd" value="exit(VarDumper::dump($END$));" description="exit(VarDumper::dump($var));" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="dgcol" value="[&#10;    'attribute' =&gt; '',&#10;    'contentOptions' =&gt; ['style' =&gt; 'white-space: normal'],&#10;    'content' =&gt; function ($model): string {&#10;        return '$END$';&#10;    }&#10;]," description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="dgcoluid" value="[&#10;    'attribute' =&gt; 'user_id',&#10;    'contentOptions' =&gt; ['style' =&gt; 'white-space: normal; width: 16px'],&#10;    'content' =&gt; function ($model): string {&#10;        return sprintf(&#10;            '#%s %s',&#10;            $model-&gt;user_id,&#10;            User::findOne($model-&gt;user_id)-&gt;email&#10;        );&#10;    }&#10;]," description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

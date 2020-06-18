@@ -1,0 +1,8 @@
+<templateSet group="WD PHP">
+  <template name="wdt" value="&lt;?= I18nHelper::t('$END$') ?&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

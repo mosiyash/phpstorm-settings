@@ -1,0 +1,57 @@
+<templateSet group="Yii2">
+  <template name="yt" value="Yii::t('app', '$SELECTION$')" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="idcol" value="[&#10;    'attribute' =&gt; 'id',&#10;    'contentOptions' =&gt; ['style' =&gt; 'width: 16px; text-align: right;'],&#10;    'content' =&gt; function($model): int {&#10;        return $model-&gt;id;&#10;    },&#10;]," description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="datecol" value="[&#10;    'attribute' =&gt; 'created_at',&#10;    'contentOptions' =&gt; ['style' =&gt; 'text-align: right;'],&#10;    'content' =&gt; function($model): string {&#10;        return $model-&gt;created_at&#10;            ? implode('&lt;br&gt;', [&#10;                Yii::$app-&gt;formatter-&gt;asDate($model-&gt;created_at),&#10;                Html::tag('span', Yii::$app-&gt;formatter-&gt;asTime($model-&gt;created_at), ['class' =&gt; 'text-muted']),&#10;            ])&#10;            : Yii::$app-&gt;formatter-&gt;nullDisplay;&#10;    },&#10;]," description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="usercol" value="[&#10;    'attribute' =&gt; 'user_id',&#10;    'contentOptions' =&gt; ['style' =&gt; 'width: 16px; text-align: right;'],&#10;    'content' =&gt; function($model): string {&#10;        $user = User::findOne($model-&gt;user_id);&#10;        if (!$user) {&#10;            return Yii::$app-&gt;formatter-&gt;nullDisplay;&#10;        }&#10;        return implode('&lt;br&gt;', [&#10;            Html::tag(&#10;                'span',&#10;                $user-&gt;profile-&gt;full_name,&#10;                [&#10;                    'style' =&gt; 'display: inline-block; max-width: 128px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;',&#10;                    'title' =&gt; $user-&gt;profile-&gt;full_name,&#10;                ]&#10;            ),&#10;            Html::tag(&#10;                'small',&#10;                '#'.$user-&gt;id.' '.$user-&gt;email,&#10;                [&#10;                    'class' =&gt; 'text-muted',&#10;                    'style' =&gt; 'display: inline-block; max-width: 128px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;',&#10;                    'title' =&gt; '#'.$user-&gt;id.' '.$user-&gt;email,&#10;                ]&#10;            ),&#10;        ]);&#10;    },&#10;]," description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="textcol" value="[&#10;    'attribute' =&gt; 'old_value',&#10;    'contentOptions' =&gt; ['style' =&gt; 'white-space: normal;'],&#10;    'content' =&gt; function($model): string {&#10;        if ($model-&gt;old_value === null) {&#10;            return Yii::$app-&gt;formatter-&gt;nullDisplay;&#10;        }&#10;&#10;        $html = [StringHelper::truncate($model-&gt;old_value, 48, '…')];&#10;&#10;        if (mb_strlen($model-&gt;old_value) &gt; 48) {&#10;            ob_start();&#10;            Modal::begin([&#10;                'header' =&gt; 'Просмотр',&#10;                'toggleButton' =&gt; ['label' =&gt; 'Просмотр', 'class' =&gt; 'btn btn-default btn-sm'],&#10;            ]);&#10;            echo '&lt;pre&gt;&lt;code&gt;'.$model-&gt;old_value.'&lt;/code&gt;&lt;/pre&gt;';&#10;            Modal::end();&#10;            $html[] = ob_get_contents();&#10;            ob_get_clean();&#10;        }&#10;&#10;        return implode('', $html);&#10;    },&#10;]," description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="nulld" value="Yii::$app-&gt;formatter-&gt;nullDisplay" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="stringcol" value="[&#10;    'attribute' =&gt; 'property',&#10;    'contentOptions' =&gt; ['style' =&gt; 'white-space: normal;'],&#10;    'content' =&gt; function ($model): string {&#10;        return $model-&gt;property ?? Yii::$app-&gt;formatter-&gt;nullDisplay;&#10;    },&#10;]," description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="strcol" value="[&#10;    'attribute' =&gt; 'property',&#10;    'contentOptions' =&gt; ['style' =&gt; 'white-space: normal;'],&#10;    'content' =&gt; function ($model): string {&#10;        return $model-&gt;property ?? Yii::$app-&gt;formatter-&gt;nullDisplay;&#10;    },&#10;]," description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="currencycol" value="[&#10;    'attribute' =&gt; 'sum',&#10;    'contentOptions' =&gt; ['style' =&gt; 'text-align: right;'],&#10;    'content' =&gt; function ($model): string {&#10;        return $model-&gt;sum&#10;            ? Yii::$app-&gt;formatter-&gt;asCurrency($model-&gt;sum, 'USD')&#10;            : Yii::$app-&gt;formatter-&gt;nullDisplay;&#10;    },&#10;]," description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="datepicker" value="DateTimePicker::widget([&#10;    'model' =&gt; $searchModel,&#10;    'attribute' =&gt; 'created_at',&#10;    'convertFormat' =&gt; true,&#10;    'pluginOptions' =&gt; ['format' =&gt; 'php:d.m.Y H:i']&#10;])," description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="daterangepicker" value="DateRangePicker::widget([&#10;    'model' =&gt; $searchModel,&#10;    'attribute' =&gt; 'period',&#10;    'convertFormat' =&gt; true,&#10;    'pluginOptions' =&gt; [&#10;        'timePicker' =&gt; true,&#10;        'timePickerIncrement' =&gt; 5,&#10;        'locale' =&gt; [&#10;            'format' =&gt; 'Y-m-d h:i',&#10;        ],&#10;    ],&#10;])," description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
