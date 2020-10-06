@@ -1,0 +1,13 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b89b6df6-8d24-4209-90ce-638d8ef4ce65" name="solar_dev3_lk2" url="https://stg-reg.devastation.ru">
+        <fileTransfer rootFolder="/var/apps/dev3/www/lk2" accessType="SFTP" host="wd-dev3" port="22288" sshConfigId="66c7e6ee-ef1f-4046-b8ea-98349d7d0535" sshConfig="dev3@wd-dev3:22288 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,7 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="wd-dev3" id="66c7e6ee-ef1f-4046-b8ea-98349d7d0535" keyPath="$USER_HOME$/.ssh/devel_3" port="22288" nameFormat="DESCRIPTIVE" username="dev3" />
+    </configs>
+  </component>
+</application>
