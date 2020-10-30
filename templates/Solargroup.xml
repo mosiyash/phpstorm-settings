@@ -29,12 +29,12 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="hgt" value="&lt;?= I18nHelper::gt('$END$') ?&gt;" toReformat="true" toShortenFQNames="true">
+  <template name="hgt" value="&lt;?= I18nHelper::gt('$END$') ?&gt;" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="gt" value="I18nHelper::gt('$END$')" toReformat="false" toShortenFQNames="true">
+  <template name="gt" value="I18nHelper::gt('$END$')" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
