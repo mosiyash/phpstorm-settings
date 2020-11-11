@@ -60,7 +60,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="hte" value="Html::encode($END$)" toReformat="false" toShortenFQNames="true">
+  <template name="hte" value="Html::encode($END$)" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
