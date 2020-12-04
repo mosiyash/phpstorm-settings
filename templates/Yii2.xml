@@ -65,4 +65,9 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="ytb" value="Yii::t('backend', '$SELECTION$')" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
