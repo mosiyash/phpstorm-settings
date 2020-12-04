@@ -70,4 +70,9 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="datefield" value="$form-&gt;field($model, '$END$')-&gt;widget(&#10;    DateTimePicker::class,&#10;    [&#10;        'type' =&gt; DateTimePicker::TYPE_INLINE,&#10;        'pluginOptions' =&gt; [&#10;            'format' =&gt; 'yyyy-mm-dd HH:mm:ss',&#10;            'showMeridian' =&gt; true,&#10;            'todayBtn' =&gt; true,&#10;        ]&#10;    ]&#10;)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
