@@ -8,6 +8,9 @@
   <action id="SynchronizeCurrentFile">
     <keyboard-shortcut first-keystroke="shift ctrl f9" />
   </action>
+  <action id="TogglePowerSave">
+    <keyboard-shortcut first-keystroke="shift ctrl alt p" />
+  </action>
   <action id="Vcs.ShowHistoryForBlock">
     <keyboard-shortcut first-keystroke="shift alt v" />
   </action>
