@@ -34,7 +34,7 @@
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="gt" value="I18nHelper::gt('$END$')" description="" toReformat="false" toShortenFQNames="true">
+  <template name="gt" value="I18nHelper::gt('$END$')" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
