@@ -95,4 +95,24 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="post" value="Yii::$app-&gt;request-&gt;post($END$)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="get" value="Yii::$app-&gt;request-&gt;post($END$)" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ajax" value="Yii::$app-&gt;request-&gt;isAjax$END$" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="flash" value="Yii::$app-&gt;session-&gt;setFlash('$END$', '');" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
