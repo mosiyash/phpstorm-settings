@@ -80,4 +80,9 @@
       <option name="HTML" value="true" />
     </context>
   </template>
+  <template name="req" value="Yii::$app-&gt;request$END$" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
