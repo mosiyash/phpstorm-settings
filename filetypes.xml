@@ -2,16 +2,17 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern=".env.dist" type=".env file" />
-      <mapping pattern="flight" type="PHP" />
       <mapping pattern=".php_cs" type="PHP" />
+      <mapping pattern="flight" type="PHP" />
+      <mapping pattern="wp" type="PLAIN_TEXT" />
       <mapping pattern="KinofitRequesterSearch,php" type="PLAIN_TEXT" />
-      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="P7hKjzrpmRodEt9L-qeC" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping ext="6" type="PLAIN_TEXT" />
       <mapping ext="bin" type="PLAIN_TEXT" />
       <mapping ext="ser" type="PLAIN_TEXT" />
-      <mapping ext="6" type="PLAIN_TEXT" />
-      <mapping ext="xliff" type="XML" />
       <mapping ext="xlf" type="XML" />
+      <mapping ext="xliff" type="XML" />
     </extensionMap>
   </component>
 </application>
