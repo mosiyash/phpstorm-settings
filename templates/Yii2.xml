@@ -80,37 +80,37 @@
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="req" value="Yii::$app-&gt;request$END$" toReformat="true" toShortenFQNames="true">
+  <template name="req" value="Yii::$app-&gt;request$END$" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="sess" value="Yii::$app-&gt;session$END$" toReformat="true" toShortenFQNames="true">
+  <template name="sess" value="Yii::$app-&gt;session$END$" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="iden" value="/** @var User $user */&#10;$user = Yii::$app-&gt;user-&gt;identity;$END$" toReformat="true" toShortenFQNames="true">
+  <template name="iden" value="/** @var User $user */&#10;$user = Yii::$app-&gt;user-&gt;identity;$END$" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="post" value="Yii::$app-&gt;request-&gt;post($END$)" toReformat="false" toShortenFQNames="true">
+  <template name="post" value="Yii::$app-&gt;request-&gt;post($END$)" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="get" value="Yii::$app-&gt;request-&gt;post($END$)" toReformat="true" toShortenFQNames="true">
+  <template name="get" value="Yii::$app-&gt;request-&gt;post($END$)" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="ajax" value="Yii::$app-&gt;request-&gt;isAjax$END$" toReformat="false" toShortenFQNames="true">
+  <template name="ajax" value="Yii::$app-&gt;request-&gt;isAjax$END$" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="flash" value="Yii::$app-&gt;session-&gt;setFlash('$END$', '');" toReformat="false" toShortenFQNames="true">
+  <template name="flash" value="Yii::$app-&gt;session-&gt;setFlash('$END$', '');" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
