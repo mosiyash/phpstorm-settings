@@ -11,6 +11,7 @@
       <mapping ext="6" type="PLAIN_TEXT" />
       <mapping ext="bin" type="PLAIN_TEXT" />
       <mapping ext="ser" type="PLAIN_TEXT" />
+      <mapping ext="template" type="PLAIN_TEXT" />
       <mapping ext="xlf" type="XML" />
       <mapping ext="xliff" type="XML" />
     </extensionMap>
