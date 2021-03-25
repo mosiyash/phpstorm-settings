@@ -115,7 +115,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="ytf" value="Yii::t('frontend', '$SELECTION$')" toReformat="true" toShortenFQNames="true">
+  <template name="ytf" value="Yii::t('frontend', '$SELECTION$')" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
