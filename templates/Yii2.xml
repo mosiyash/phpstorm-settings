@@ -120,4 +120,9 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="vdu" value="exit(var_dump($END$));" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
