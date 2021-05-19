@@ -1,7 +1,6 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern=".env.dist" type=".env file" />
       <mapping pattern=".php_cs" type="PHP" />
       <mapping pattern="flight" type="PHP" />
       <mapping pattern="wp" type="PLAIN_TEXT" />
