@@ -1,0 +1,409 @@
+<code_scheme name="Bullgare SQL" version="173">
+  <DB2CodeStyleSettings version="2">
+    <option name="ALIAS_CASE" value="1" />
+    <option name="KEYWORD_CASE" value="0" />
+    <option name="TYPE_CASE" value="3" />
+    <option name="IDENTIFIER_CASE" value="1" />
+    <option name="QUERY_EL_LINE" value="101" />
+    <option name="QUERY_IN_ONE_STRING" value="1" />
+    <option name="QUERY_TRUE_INDENT" value="false" />
+    <option name="QUERY_ALIGN_ELEMENTS" value="false" />
+    <option name="SUBQUERY_OPENING" value="1" />
+    <option name="SUBQUERY_CONTENT" value="2" />
+    <option name="SUBQUERY_CLOSING" value="2" />
+    <option name="INSERT_INTO_NL" value="2" />
+    <option name="INSERT_OPENING" value="4" />
+    <option name="INSERT_TABLE_EL_LINE" value="101" />
+    <option name="SET_EL_LINE" value="1" />
+    <option name="SET_EL_WRAP" value="3" />
+    <option name="WITH_EL_LINE" value="101" />
+    <option name="SELECT_EL_LINE" value="101" />
+    <option name="SELECT_USE_AS_WORD" value="1" />
+    <option name="SELECT_ALIGN_AS" value="false" />
+    <option name="FROM_EL_LINE" value="1" />
+    <option name="FROM_EL_WRAP" value="3" />
+    <option name="FROM_WRAP_ON" value="true" />
+    <option name="FROM_INDENT_JOIN" value="false" />
+    <option name="FROM_ONLY_JOIN_INDENT" value="2" />
+    <option name="FROM_PLACE_ON" value="11" />
+    <option name="INDEX_NAME_TEMPLATE" value="{table}_{columns}_{unique?key:idx}" />
+    <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_pkey" />
+    <option name="FOREIGN_KEY_NAME_TEMPLATE" value="{table}_{ref_table}_{ref_columns}_fkey" />
+  </DB2CodeStyleSettings>
+  <DerbyCodeStyleSettings version="2">
+    <option name="ALIAS_CASE" value="1" />
+    <option name="KEYWORD_CASE" value="0" />
+    <option name="TYPE_CASE" value="3" />
+    <option name="IDENTIFIER_CASE" value="1" />
+    <option name="QUERY_EL_LINE" value="101" />
+    <option name="QUERY_IN_ONE_STRING" value="1" />
+    <option name="QUERY_TRUE_INDENT" value="false" />
+    <option name="QUERY_ALIGN_ELEMENTS" value="false" />
+    <option name="SUBQUERY_OPENING" value="1" />
+    <option name="SUBQUERY_CONTENT" value="2" />
+    <option name="SUBQUERY_CLOSING" value="2" />
+    <option name="INSERT_INTO_NL" value="2" />
+    <option name="INSERT_OPENING" value="4" />
+    <option name="INSERT_TABLE_EL_LINE" value="101" />
+    <option name="SET_EL_LINE" value="1" />
+    <option name="SET_EL_WRAP" value="3" />
+    <option name="WITH_EL_LINE" value="101" />
+    <option name="SELECT_EL_LINE" value="101" />
+    <option name="SELECT_USE_AS_WORD" value="1" />
+    <option name="SELECT_ALIGN_AS" value="false" />
+    <option name="FROM_EL_LINE" value="1" />
+    <option name="FROM_EL_WRAP" value="3" />
+    <option name="FROM_WRAP_ON" value="true" />
+    <option name="FROM_INDENT_JOIN" value="false" />
+    <option name="FROM_ONLY_JOIN_INDENT" value="2" />
+    <option name="FROM_PLACE_ON" value="11" />
+    <option name="INDEX_NAME_TEMPLATE" value="{table}_{columns}_{unique?key:idx}" />
+    <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_pkey" />
+    <option name="FOREIGN_KEY_NAME_TEMPLATE" value="{table}_{ref_table}_{ref_columns}_fkey" />
+  </DerbyCodeStyleSettings>
+  <H2CodeStyleSettings version="2">
+    <option name="ALIAS_CASE" value="1" />
+    <option name="KEYWORD_CASE" value="0" />
+    <option name="TYPE_CASE" value="3" />
+    <option name="IDENTIFIER_CASE" value="1" />
+    <option name="QUERY_EL_LINE" value="101" />
+    <option name="QUERY_IN_ONE_STRING" value="1" />
+    <option name="QUERY_TRUE_INDENT" value="false" />
+    <option name="QUERY_ALIGN_ELEMENTS" value="false" />
+    <option name="SUBQUERY_OPENING" value="1" />
+    <option name="SUBQUERY_CONTENT" value="2" />
+    <option name="SUBQUERY_CLOSING" value="2" />
+    <option name="INSERT_INTO_NL" value="2" />
+    <option name="INSERT_OPENING" value="4" />
+    <option name="INSERT_TABLE_EL_LINE" value="101" />
+    <option name="SET_EL_LINE" value="1" />
+    <option name="SET_EL_WRAP" value="3" />
+    <option name="WITH_EL_LINE" value="101" />
+    <option name="SELECT_EL_LINE" value="101" />
+    <option name="SELECT_USE_AS_WORD" value="1" />
+    <option name="SELECT_ALIGN_AS" value="false" />
+    <option name="FROM_EL_LINE" value="1" />
+    <option name="FROM_EL_WRAP" value="3" />
+    <option name="FROM_WRAP_ON" value="true" />
+    <option name="FROM_INDENT_JOIN" value="false" />
+    <option name="FROM_ONLY_JOIN_INDENT" value="2" />
+    <option name="FROM_PLACE_ON" value="11" />
+    <option name="INDEX_NAME_TEMPLATE" value="{table}_{columns}_{unique?key:idx}" />
+    <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_pkey" />
+    <option name="FOREIGN_KEY_NAME_TEMPLATE" value="{table}_{ref_table}_{ref_columns}_fkey" />
+  </H2CodeStyleSettings>
+  <HSQLCodeStyleSettings version="2">
+    <option name="ALIAS_CASE" value="1" />
+    <option name="KEYWORD_CASE" value="0" />
+    <option name="TYPE_CASE" value="3" />
+    <option name="IDENTIFIER_CASE" value="1" />
+    <option name="QUERY_EL_LINE" value="101" />
+    <option name="QUERY_IN_ONE_STRING" value="1" />
+    <option name="QUERY_TRUE_INDENT" value="false" />
+    <option name="QUERY_ALIGN_ELEMENTS" value="false" />
+    <option name="SUBQUERY_OPENING" value="1" />
+    <option name="SUBQUERY_CONTENT" value="2" />
+    <option name="SUBQUERY_CLOSING" value="2" />
+    <option name="INSERT_INTO_NL" value="2" />
+    <option name="INSERT_OPENING" value="4" />
+    <option name="INSERT_TABLE_EL_LINE" value="101" />
+    <option name="SET_EL_LINE" value="1" />
+    <option name="SET_EL_WRAP" value="3" />
+    <option name="WITH_EL_LINE" value="101" />
+    <option name="SELECT_EL_LINE" value="101" />
+    <option name="SELECT_USE_AS_WORD" value="1" />
+    <option name="SELECT_ALIGN_AS" value="false" />
+    <option name="FROM_EL_LINE" value="1" />
+    <option name="FROM_EL_WRAP" value="3" />
+    <option name="FROM_WRAP_ON" value="true" />
+    <option name="FROM_INDENT_JOIN" value="false" />
+    <option name="FROM_ONLY_JOIN_INDENT" value="2" />
+    <option name="FROM_PLACE_ON" value="11" />
+    <option name="INDEX_NAME_TEMPLATE" value="{table}_{columns}_{unique?key:idx}" />
+    <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_pkey" />
+    <option name="FOREIGN_KEY_NAME_TEMPLATE" value="{table}_{ref_table}_{ref_columns}_fkey" />
+  </HSQLCodeStyleSettings>
+  <MSSQLCodeStyleSettings version="2">
+    <option name="ALIAS_CASE" value="1" />
+    <option name="KEYWORD_CASE" value="0" />
+    <option name="TYPE_CASE" value="3" />
+    <option name="IDENTIFIER_CASE" value="1" />
+    <option name="QUERY_EL_LINE" value="101" />
+    <option name="QUERY_IN_ONE_STRING" value="1" />
+    <option name="QUERY_TRUE_INDENT" value="false" />
+    <option name="QUERY_ALIGN_ELEMENTS" value="false" />
+    <option name="SUBQUERY_OPENING" value="1" />
+    <option name="SUBQUERY_CONTENT" value="2" />
+    <option name="SUBQUERY_CLOSING" value="2" />
+    <option name="INSERT_INTO_NL" value="2" />
+    <option name="INSERT_OPENING" value="4" />
+    <option name="INSERT_TABLE_EL_LINE" value="101" />
+    <option name="SET_EL_LINE" value="1" />
+    <option name="SET_EL_WRAP" value="3" />
+    <option name="WITH_EL_LINE" value="101" />
+    <option name="SELECT_EL_LINE" value="101" />
+    <option name="SELECT_USE_AS_WORD" value="1" />
+    <option name="SELECT_ALIGN_AS" value="false" />
+    <option name="FROM_EL_LINE" value="1" />
+    <option name="FROM_EL_WRAP" value="3" />
+    <option name="FROM_WRAP_ON" value="true" />
+    <option name="FROM_INDENT_JOIN" value="false" />
+    <option name="FROM_ONLY_JOIN_INDENT" value="2" />
+    <option name="FROM_PLACE_ON" value="11" />
+    <option name="INDEX_NAME_TEMPLATE" value="{table}_{columns}_{unique?key:idx}" />
+    <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_pkey" />
+    <option name="FOREIGN_KEY_NAME_TEMPLATE" value="{table}_{ref_table}_{ref_columns}_fkey" />
+  </MSSQLCodeStyleSettings>
+  <MySQLCodeStyleSettings version="2">
+    <option name="ALIAS_CASE" value="1" />
+    <option name="KEYWORD_CASE" value="0" />
+    <option name="TYPE_CASE" value="3" />
+    <option name="IDENTIFIER_CASE" value="1" />
+    <option name="QUERY_EL_LINE" value="101" />
+    <option name="QUERY_IN_ONE_STRING" value="1" />
+    <option name="QUERY_TRUE_INDENT" value="false" />
+    <option name="QUERY_ALIGN_ELEMENTS" value="false" />
+    <option name="SUBQUERY_OPENING" value="1" />
+    <option name="SUBQUERY_CONTENT" value="2" />
+    <option name="SUBQUERY_CLOSING" value="2" />
+    <option name="INSERT_INTO_NL" value="2" />
+    <option name="INSERT_OPENING" value="4" />
+    <option name="INSERT_TABLE_EL_LINE" value="101" />
+    <option name="SET_EL_LINE" value="1" />
+    <option name="SET_EL_WRAP" value="3" />
+    <option name="WITH_EL_LINE" value="101" />
+    <option name="SELECT_EL_LINE" value="101" />
+    <option name="SELECT_USE_AS_WORD" value="1" />
+    <option name="SELECT_ALIGN_AS" value="false" />
+    <option name="FROM_EL_LINE" value="1" />
+    <option name="FROM_EL_WRAP" value="3" />
+    <option name="FROM_WRAP_ON" value="true" />
+    <option name="FROM_INDENT_JOIN" value="false" />
+    <option name="FROM_ONLY_JOIN_INDENT" value="2" />
+    <option name="FROM_PLACE_ON" value="11" />
+    <option name="INDEX_NAME_TEMPLATE" value="{table}_{columns}_{unique?key:idx}" />
+    <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_pkey" />
+    <option name="FOREIGN_KEY_NAME_TEMPLATE" value="{table}_{ref_table}_{ref_columns}_fkey" />
+  </MySQLCodeStyleSettings>
+  <OracleCodeStyleSettings version="2">
+    <option name="ALIAS_CASE" value="1" />
+    <option name="KEYWORD_CASE" value="0" />
+    <option name="TYPE_CASE" value="3" />
+    <option name="IDENTIFIER_CASE" value="1" />
+    <option name="QUERY_EL_LINE" value="101" />
+    <option name="QUERY_IN_ONE_STRING" value="1" />
+    <option name="QUERY_TRUE_INDENT" value="false" />
+    <option name="QUERY_ALIGN_ELEMENTS" value="false" />
+    <option name="SUBQUERY_OPENING" value="1" />
+    <option name="SUBQUERY_CONTENT" value="2" />
+    <option name="SUBQUERY_CLOSING" value="2" />
+    <option name="INSERT_INTO_NL" value="2" />
+    <option name="INSERT_OPENING" value="4" />
+    <option name="INSERT_TABLE_EL_LINE" value="101" />
+    <option name="SET_EL_LINE" value="1" />
+    <option name="SET_EL_WRAP" value="3" />
+    <option name="WITH_EL_LINE" value="101" />
+    <option name="SELECT_EL_LINE" value="101" />
+    <option name="SELECT_USE_AS_WORD" value="1" />
+    <option name="SELECT_ALIGN_AS" value="false" />
+    <option name="FROM_EL_LINE" value="1" />
+    <option name="FROM_EL_WRAP" value="3" />
+    <option name="FROM_WRAP_ON" value="true" />
+    <option name="FROM_INDENT_JOIN" value="false" />
+    <option name="FROM_ONLY_JOIN_INDENT" value="2" />
+    <option name="FROM_PLACE_ON" value="11" />
+    <option name="INDEX_NAME_TEMPLATE" value="{table}_{columns}_{unique?key:idx}" />
+    <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_pkey" />
+    <option name="FOREIGN_KEY_NAME_TEMPLATE" value="{table}_{ref_table}_{ref_columns}_fkey" />
+  </OracleCodeStyleSettings>
+  <PostgresCodeStyleSettings version="2">
+    <option name="ALIAS_CASE" value="1" />
+    <option name="KEYWORD_CASE" value="0" />
+    <option name="TYPE_CASE" value="3" />
+    <option name="IDENTIFIER_CASE" value="1" />
+    <option name="QUERY_EL_LINE" value="101" />
+    <option name="QUERY_IN_ONE_STRING" value="1" />
+    <option name="QUERY_TRUE_INDENT" value="false" />
+    <option name="QUERY_ALIGN_ELEMENTS" value="false" />
+    <option name="SUBQUERY_OPENING" value="1" />
+    <option name="SUBQUERY_CONTENT" value="2" />
+    <option name="SUBQUERY_CLOSING" value="2" />
+    <option name="INSERT_INTO_NL" value="2" />
+    <option name="INSERT_OPENING" value="4" />
+    <option name="INSERT_TABLE_EL_LINE" value="101" />
+    <option name="SET_EL_LINE" value="1" />
+    <option name="SET_EL_WRAP" value="3" />
+    <option name="WITH_EL_LINE" value="101" />
+    <option name="SELECT_EL_LINE" value="101" />
+    <option name="SELECT_USE_AS_WORD" value="1" />
+    <option name="SELECT_ALIGN_AS" value="false" />
+    <option name="FROM_EL_LINE" value="1" />
+    <option name="FROM_EL_WRAP" value="3" />
+    <option name="FROM_WRAP_ON" value="true" />
+    <option name="FROM_INDENT_JOIN" value="false" />
+    <option name="FROM_ONLY_JOIN_INDENT" value="2" />
+    <option name="FROM_PLACE_ON" value="11" />
+    <option name="INDEX_NAME_TEMPLATE" value="{table}_{columns}_{unique?key:idx}" />
+    <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_pkey" />
+    <option name="FOREIGN_KEY_NAME_TEMPLATE" value="{table}_{ref_table}_{ref_columns}_fkey" />
+  </PostgresCodeStyleSettings>
+  <SQLiteCodeStyleSettings version="2">
+    <option name="ALIAS_CASE" value="1" />
+    <option name="KEYWORD_CASE" value="0" />
+    <option name="TYPE_CASE" value="3" />
+    <option name="IDENTIFIER_CASE" value="1" />
+    <option name="QUERY_EL_LINE" value="101" />
+    <option name="QUERY_IN_ONE_STRING" value="1" />
+    <option name="QUERY_TRUE_INDENT" value="false" />
+    <option name="QUERY_ALIGN_ELEMENTS" value="false" />
+    <option name="SUBQUERY_OPENING" value="1" />
+    <option name="SUBQUERY_CONTENT" value="2" />
+    <option name="SUBQUERY_CLOSING" value="2" />
+    <option name="INSERT_INTO_NL" value="2" />
+    <option name="INSERT_OPENING" value="4" />
+    <option name="INSERT_TABLE_EL_LINE" value="101" />
+    <option name="SET_EL_LINE" value="1" />
+    <option name="SET_EL_WRAP" value="3" />
+    <option name="WITH_EL_LINE" value="101" />
+    <option name="SELECT_EL_LINE" value="101" />
+    <option name="SELECT_USE_AS_WORD" value="1" />
+    <option name="SELECT_ALIGN_AS" value="false" />
+    <option name="FROM_EL_LINE" value="1" />
+    <option name="FROM_EL_WRAP" value="3" />
+    <option name="FROM_WRAP_ON" value="true" />
+    <option name="FROM_INDENT_JOIN" value="false" />
+    <option name="FROM_ONLY_JOIN_INDENT" value="2" />
+    <option name="FROM_PLACE_ON" value="11" />
+    <option name="INDEX_NAME_TEMPLATE" value="{table}_{columns}_{unique?key:idx}" />
+    <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_pkey" />
+    <option name="FOREIGN_KEY_NAME_TEMPLATE" value="{table}_{ref_table}_{ref_columns}_fkey" />
+  </SQLiteCodeStyleSettings>
+  <SqlCodeStyleSettings version="2">
+    <option name="ALIAS_CASE" value="1" />
+    <option name="KEYWORD_CASE" value="0" />
+    <option name="TYPE_CASE" value="3" />
+    <option name="IDENTIFIER_CASE" value="1" />
+    <option name="QUERY_EL_LINE" value="101" />
+    <option name="QUERY_IN_ONE_STRING" value="1" />
+    <option name="QUERY_TRUE_INDENT" value="false" />
+    <option name="QUERY_ALIGN_ELEMENTS" value="false" />
+    <option name="SUBQUERY_OPENING" value="1" />
+    <option name="SUBQUERY_CONTENT" value="2" />
+    <option name="SUBQUERY_CLOSING" value="2" />
+    <option name="INSERT_INTO_NL" value="2" />
+    <option name="INSERT_OPENING" value="4" />
+    <option name="INSERT_TABLE_EL_LINE" value="101" />
+    <option name="SET_EL_LINE" value="1" />
+    <option name="SET_EL_WRAP" value="3" />
+    <option name="WITH_EL_LINE" value="101" />
+    <option name="SELECT_EL_LINE" value="101" />
+    <option name="SELECT_USE_AS_WORD" value="1" />
+    <option name="SELECT_ALIGN_AS" value="false" />
+    <option name="FROM_EL_LINE" value="1" />
+    <option name="FROM_EL_WRAP" value="3" />
+    <option name="FROM_WRAP_ON" value="true" />
+    <option name="FROM_INDENT_JOIN" value="false" />
+    <option name="FROM_ONLY_JOIN_INDENT" value="2" />
+    <option name="FROM_PLACE_ON" value="11" />
+    <option name="INDEX_NAME_TEMPLATE" value="{table}_{columns}_{unique?key:idx}" />
+    <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_pkey" />
+    <option name="FOREIGN_KEY_NAME_TEMPLATE" value="{table}_{ref_table}_{ref_columns}_fkey" />
+  </SqlCodeStyleSettings>
+  <SybaseCodeStyleSettings version="2">
+    <option name="ALIAS_CASE" value="1" />
+    <option name="KEYWORD_CASE" value="0" />
+    <option name="TYPE_CASE" value="3" />
+    <option name="IDENTIFIER_CASE" value="1" />
+    <option name="QUERY_EL_LINE" value="101" />
+    <option name="QUERY_IN_ONE_STRING" value="1" />
+    <option name="QUERY_TRUE_INDENT" value="false" />
+    <option name="QUERY_ALIGN_ELEMENTS" value="false" />
+    <option name="SUBQUERY_OPENING" value="1" />
+    <option name="SUBQUERY_CONTENT" value="2" />
+    <option name="SUBQUERY_CLOSING" value="2" />
+    <option name="INSERT_INTO_NL" value="2" />
+    <option name="INSERT_OPENING" value="4" />
+    <option name="INSERT_TABLE_EL_LINE" value="101" />
+    <option name="SET_EL_LINE" value="1" />
+    <option name="SET_EL_WRAP" value="3" />
+    <option name="WITH_EL_LINE" value="101" />
+    <option name="SELECT_EL_LINE" value="101" />
+    <option name="SELECT_USE_AS_WORD" value="1" />
+    <option name="SELECT_ALIGN_AS" value="false" />
+    <option name="FROM_EL_LINE" value="1" />
+    <option name="FROM_EL_WRAP" value="3" />
+    <option name="FROM_WRAP_ON" value="true" />
+    <option name="FROM_INDENT_JOIN" value="false" />
+    <option name="FROM_ONLY_JOIN_INDENT" value="2" />
+    <option name="FROM_PLACE_ON" value="11" />
+    <option name="INDEX_NAME_TEMPLATE" value="{table}_{columns}_{unique?key:idx}" />
+    <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_pkey" />
+    <option name="FOREIGN_KEY_NAME_TEMPLATE" value="{table}_{ref_table}_{ref_columns}_fkey" />
+  </SybaseCodeStyleSettings>
+  <codeStyleSettings language="DB2">
+    <option name="KEEP_LINE_BREAKS" value="false" />
+    <indentOptions>
+      <option name="USE_TAB_CHARACTER" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="Derby">
+    <option name="KEEP_LINE_BREAKS" value="false" />
+    <indentOptions>
+      <option name="USE_TAB_CHARACTER" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="H2">
+    <option name="KEEP_LINE_BREAKS" value="false" />
+    <indentOptions>
+      <option name="USE_TAB_CHARACTER" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="HSQLDB">
+    <option name="KEEP_LINE_BREAKS" value="false" />
+    <indentOptions>
+      <option name="USE_TAB_CHARACTER" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="MySQL">
+    <option name="KEEP_LINE_BREAKS" value="false" />
+    <indentOptions>
+      <option name="USE_TAB_CHARACTER" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="Oracle">
+    <option name="KEEP_LINE_BREAKS" value="false" />
+    <indentOptions>
+      <option name="USE_TAB_CHARACTER" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="PostgreSQL">
+    <option name="KEEP_LINE_BREAKS" value="false" />
+    <indentOptions>
+      <option name="USE_TAB_CHARACTER" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="SQL">
+    <option name="KEEP_LINE_BREAKS" value="false" />
+    <indentOptions>
+      <option name="USE_TAB_CHARACTER" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="SQLite">
+    <option name="KEEP_LINE_BREAKS" value="false" />
+    <indentOptions>
+      <option name="USE_TAB_CHARACTER" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="Sybase">
+    <option name="KEEP_LINE_BREAKS" value="false" />
+    <indentOptions>
+      <option name="USE_TAB_CHARACTER" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="TSQL">
+    <option name="KEEP_LINE_BREAKS" value="false" />
+    <indentOptions>
+      <option name="USE_TAB_CHARACTER" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
+</code_scheme>
