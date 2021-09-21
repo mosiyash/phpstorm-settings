@@ -5,10 +5,11 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.php" />
     <mask>.php</mask>
     <mask>*.js.php</mask>
     <mask>*.less</mask>
-    <mask>*.php</mask>
     <mask>*.js</mask>
+    <mask>*.php</mask>
   </component>
 </application>
