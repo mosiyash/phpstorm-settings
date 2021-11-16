@@ -130,4 +130,9 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="trc" value="Yii::trace(sprintf('$END$'), __METHOD__);" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
