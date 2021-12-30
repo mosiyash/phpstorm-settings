@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="docker-cockpit-entrypoint" type="AUTO_DETECTED" />
       <mapping pattern="flight" type="PHP" />
       <mapping pattern=".php_cs" type="PHP" />
       <mapping pattern="KinofitRequesterSearch,php" type="PLAIN_TEXT" />
