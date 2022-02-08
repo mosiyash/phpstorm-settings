@@ -15,6 +15,7 @@
       <mapping ext="template" type="PLAIN_TEXT" />
       <mapping ext="xlf" type="XML" />
       <mapping ext="xliff" type="XML" />
+      <removed_mapping pattern=".env" approved="true" type=".env file" />
     </extensionMap>
   </component>
 </application>
