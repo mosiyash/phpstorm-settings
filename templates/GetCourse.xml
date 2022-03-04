@@ -1,5 +1,5 @@
 <templateSet group="GetCourse">
-  <template name="psrl" value="\Yii::$app-&gt;psrLogger-&gt;info('$CURSOR$');" toReformat="true" toShortenFQNames="true">
+  <template name="psrl" value="\Yii::$app-&gt;psrLogger-&gt;info('$CURSOR$');" description="" toReformat="true" toShortenFQNames="true">
     <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
