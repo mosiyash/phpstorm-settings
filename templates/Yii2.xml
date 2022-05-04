@@ -135,12 +135,12 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="app" value="Yii::$app" toReformat="true" toShortenFQNames="true">
+  <template name="app" value="Yii::$app" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="usercomp" value="Yii::$app-&gt;user" toReformat="false" toShortenFQNames="true">
+  <template name="usercomp" value="Yii::$app-&gt;user" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
