@@ -1,0 +1,7 @@
+<templateSet group="SQL">
+  <template name="trcas" value="truncate $END$ cascade;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+</templateSet>
