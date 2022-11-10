@@ -145,4 +145,10 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="vard" value="exit(\yii\helpers\VarDumper::dump($END$, 10, true));" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
