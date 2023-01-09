@@ -151,12 +151,12 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="tm" value="$t = microtime(true);$END$" toReformat="true" toShortenFQNames="true">
+  <template name="tm" value="$t = microtime(true);$END$" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="tmr" value="'timer t: ' . (microtime(true) - $t)" toReformat="true" toShortenFQNames="true">
+  <template name="tmr" value="'timer t: ' . (microtime(true) - $t)" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
