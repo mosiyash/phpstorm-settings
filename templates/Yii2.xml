@@ -161,7 +161,13 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="jse" value="json_encode($CURSOR$, JSON_PRETTY_PRINT)" toReformat="true" toShortenFQNames="true">
+  <template name="jse" value="json_encode($CURSOR$)" toReformat="true" toShortenFQNames="true">
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="jsep" value="json_encode($CURSOR$)" toReformat="false" toShortenFQNames="true">
     <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
