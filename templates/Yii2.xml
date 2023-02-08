@@ -161,19 +161,19 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="jse" value="json_encode($CURSOR$)" toReformat="true" toShortenFQNames="true">
+  <template name="jse" value="json_encode($CURSOR$)" description="" toReformat="true" toShortenFQNames="true">
     <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="jsep" value="json_encode($CURSOR$)" toReformat="false" toShortenFQNames="true">
+  <template name="jsep" value="json_encode($CURSOR$)" description="" toReformat="false" toShortenFQNames="true">
     <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="getTrace" value="try {&#10;&#9;throw new \Exception('trace');&#10;} catch (\Exception $e) {&#10;&#9;$trace = array_map(&#10;&#9;&#9;static function (array $row): string {&#10;&#9;&#9;&#9;return @$row['file'] . ':' . @$row['line'] . ' ' . @$row['class'].@$row['type'].@$row['function'];&#10;&#9;&#9;},&#10;&#9;&#9;array_slice($e-&gt;getTrace(), 0, 5)&#10;&#9;);&#10;}$END$" toReformat="false" toShortenFQNames="true">
+  <template name="getTrace" value="try {&#10;&#9;throw new \Exception('trace');&#10;} catch (\Exception $e) {&#10;&#9;$trace = array_map(&#10;&#9;&#9;static function (array $row): string {&#10;&#9;&#9;&#9;return @$row['file'] . ':' . @$row['line'] . ' ' . @$row['class'].@$row['type'].@$row['function'];&#10;&#9;&#9;},&#10;&#9;&#9;array_slice($e-&gt;getTrace(), 0, 5)&#10;&#9;);&#10;}$END$" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
