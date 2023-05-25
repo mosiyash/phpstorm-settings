@@ -178,7 +178,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="debug" value="try {&#10;&#9;throw new \Exception('Debug');&#10;} catch (\Exception $e) {&#10;&#9;exit(\yii\helpers\VarDumper::dump([&#10;&#9;&#9;$e-&gt;getMessage(),&#10;&#9;&#9;$e-&gt;getTraceAsString(),&#10;&#9;], 10, true));&#10;}" toReformat="true" toShortenFQNames="true">
+  <template name="debug" value="try {&#10;&#9;throw new \Exception('Debug');&#10;} catch (\Exception $e) {&#10;&#9;exit(\yii\helpers\VarDumper::dump([&#10;&#9;&#9;$e-&gt;getMessage(),&#10;&#9;&#9;$e-&gt;getTraceAsString(),&#10;&#9;], 10, true));&#10;}" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
